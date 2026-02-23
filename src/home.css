@@ -2,7 +2,9 @@
     background-color: brown;
     margin: auto;
     padding: 50px;
+    padding-bottom: 200px;
     font-size: larger;
+    color: azure;
 }
 
 .home{
