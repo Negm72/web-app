@@ -1,15 +1,14 @@
-import Home from './Home'
-import About from './About'
-import Test from './Test';
-import React from 'react';
+import Home from './Components/Home'
+import About from './Components/About'
+import React, { useState } from 'react';
+import Products from './Components/Products';
 function App() {
-  // put your logic
-  let p=<p>iti aswan</p>;
-  console.log(p);
+  let[x,setx]=useState("");
   return (
     <React.Fragment>
-      <Home/>
-      
+
+      <About/>
+      {/* <Products/> */}
     </React.Fragment>
   )
 }
